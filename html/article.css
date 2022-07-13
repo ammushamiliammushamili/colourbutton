@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-style: italic;
+}
+img{
+    height: 50vh;
+    width: 50vw;
+}

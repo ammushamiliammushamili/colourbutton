@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+form {
+    text-align: center;
+    border-radius: 1px;
+    box-shadow: 20px 20px rgb(27, 22, 32);
+    background-color: dimgrey;
+    height: 50vh;
+    width: 50vw;
+    padding: 100px;
+    margin: 50px;
+    margin-left: 170px;
+    margin-right: 200px;
+
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1070296651/thumb/6.jpg?ip=x480)
+}
+
+button {
+    color: brown;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 15mm;
+    font-weight: 800;
+    box-shadow: 5px 5px wheat;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+
+}
+
+p {
+    color: red;
+    font-weight: 700;
+}
+
+#success {
+    color: green;
+}

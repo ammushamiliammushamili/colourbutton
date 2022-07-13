@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <style>
+        h1 {
+
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #hour {
+            color: blue;
+        }
+
+        #minute {
+            color: rgb(25, 179, 79);
+        }
+
+        #second {
+            color: orangered;
+            font-size: 35px;
+
+        }
+
+        #am-pm {
+            font-style: italic;
+        }
+
+        div {
+
+            background-color: aqua;
+            justify-content: center;
+            margin-top: 160px;
+            height: 50vh;
+            width: 50vw;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1><span id="hour"></span>:<span id="minute"></span>:<span id="second"></span><br>
+            <sapn id="am-pm"></sapn>
+    </div>
+    </h1>
+    <script>
+        function showTime() {
+            let today = new Date();
+            let hour = today.getHours();
+            let minute = today.getMinutes();
+            let second = today.getSeconds();
+            let ampm = "AM"
+            if (hour >= 12) {
+                ampm = "PM";//identify am or pm//
+            }
+            if (hour > 12) {
+                hour = hour - 12;//returun in real time//
+            }
+            document.getElementById("hour").innerHTML = hour;
+            document.getElementById("minute").innerHTML = minute;
+            document.getElementById("second").innerHTML = second
+            document.getElementById("am-pm").innerHTML = ampm;
+        }
+        // showTime();
+        setInterval(showTime, 1000)
+    </script>
+
+</body>
+
+</html>

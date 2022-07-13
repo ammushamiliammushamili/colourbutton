@@ -1,0 +1,77 @@
+.topcontainer {
+    display: flex;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+    margin-top: 70px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: cen
+}
+
+
+p {
+    font-family: Sans-serif Arial Verdana Helvetica;
+    font-weight: 800;
+    text-align: justify;
+    font-style: italic;
+}
+
+.bottomcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h6 {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+button {
+    background-color: lightcoral;
+}
+
+
+.middle {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+.car {
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    align-content: space-around;
+    ;
+
+}
+
+.car1 {
+    background-color: red;
+}
+
+.car2 {
+    background-color: tomato;
+}
+
+.car3 {
+    background-color: brown;
+}
+
+p {
+    text-align: center;
+    font-size: small;
+}
+
+h6 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px grey;
+
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #b3acd5;
+
+}
+
+#calculator {
+    width: 300px;
+    height: 600px;
+    background-color: grey;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 5px;
+    border: #082008;
+    text-align: center;
+    margin-left: 380px;
+    border: 1px solid black;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+}
+
+button {
+    font-size: 18px;
+    background-color: greenyellow;
+}
